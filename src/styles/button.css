@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  background: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 40px;
+  transition: all 0.3s ease;
+}
+.button-solid {
+  background-color: #0275cc;
+  color: #fff;
+}
+.button-solid:hover {
+  background-color: hsl(206, 98%, 30%);
+}
+.button-solid-white {
+  background-color: #fff;
+  color: #2a2a2a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
